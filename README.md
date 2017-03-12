@@ -10,6 +10,7 @@ Objective:
 * [node.js] - evented I/O for the backend
 * [Express] - fast node.js network app framework 
 * [redis] - Redis is an open source (BSD licensed), in-memory data structure store, used as a database
+* [scoreboard] - scoreboard is a light weight leaderboard for node.js. Thanks edward@knowsee.com for your awesome work.
 
 ### Installation
 
@@ -54,6 +55,7 @@ Post requires json post in below format
 ### Todos
 
  - Many items to-do
+ - unit tests
  - Need to handle negatives in scores
  - Injecting proper validations
  - Exposing services to state maintained protocols and socket.io
