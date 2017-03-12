@@ -7,9 +7,6 @@ Objective:
 
 ### Tech
 
-Dillinger uses a number of open source projects to work properly:
-
-
 * [node.js] - evented I/O for the backend
 * [Express] - fast node.js network app framework 
 * [redis] - Redis is an open source (BSD licensed), in-memory data structure store, used as a database
