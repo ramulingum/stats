@@ -28,17 +28,36 @@ module.exports = {
 }
 ```
 
+
 For production environments...
 
 ```sh
-$ npm install --production
-$ npm run predeploy
-$ NODE_ENV=production node app
+i dont recommand to use this code in production
 ```
+
+
+In config.js you can maintain the configurations. “keys.js” is intended to use for passwords and keys. Committed post man collections to repo to test the Rest Api. Install Google chrome and install post man plugin and import the post man collections.  Add “stat route” is for adding the stats and “get lb” is to generate the leadership board. To get the leadership board of multiple stats you can use get params in the below format.
+
+```
+?name=combos&name=kills
+```
+Post requires json post in below format
+```
+{
+	"name":"combos",
+	"uid":"ED@ED.com",
+	"value":"8"
+}
+```
+-	name is name of the stat
+-	uid is unique id for user it accepts only email id ( email@email.com ) for now.
+-	value is actual value of the stat ( positive integer in string format ).
+
 
 ### Todos
 
  - Many items to-do
+ - Need to handle negatives in scores
  - Injecting proper validations
  - Exposing services to state maintained protocols and socket.io
  
