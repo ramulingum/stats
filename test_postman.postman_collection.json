@@ -1,0 +1,56 @@
+{
+	"id": "de7857dc-6b57-16db-1746-c57d256e93a7",
+	"name": "test_postman",
+	"description": "",
+	"order": [
+		"86f99f68-34ca-45a5-88e7-29a8fed09145",
+		"df9d21b3-8ff1-fdbf-5559-267ab9cd23f1"
+	],
+	"folders": [],
+	"timestamp": 1489322296159,
+	"owner": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "86f99f68-34ca-45a5-88e7-29a8fed09145",
+			"headers": "Content-Type: application/json; charset = UTF-8\n",
+			"url": "http://localhost:8080/api/v1/stats",
+			"pathVariables": {},
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "de7857dc-6b57-16db-1746-c57d256e93a7",
+			"data": [],
+			"dataMode": "raw",
+			"name": "add stat",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1489322296159,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\t\"name\":\"combos\",\n\t\"uid\":\"ED@ED.com\",\n\t\"value\":\"8\"\n}"
+		},
+		{
+			"id": "df9d21b3-8ff1-fdbf-5559-267ab9cd23f1",
+			"headers": "Content-Type: application/json; charset = UTF-8\n",
+			"url": "http://localhost:8080/api/v1/stats?name=combos",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1489322360737,
+			"name": "get lb",
+			"description": "",
+			"collectionId": "de7857dc-6b57-16db-1746-c57d256e93a7",
+			"responses": [],
+			"rawModeData": "{\n\t\"name\":\"color\",\n\t\"uid\":\"ed\",\n\t\"value\":\"123\"\n}"
+		}
+	]
+}
